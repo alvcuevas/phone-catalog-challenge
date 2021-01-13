@@ -32,7 +32,6 @@ export default function booksReducer(state = initialState, action) {
         error: action.error
       };
     case FETCH_PHONE_DETAILS:
-      console.log('ACTION ID', action.id);
       return {
         ...state,
         details: state.catalog.filter(phone => phone.id === action.id)
