@@ -1,7 +1,8 @@
 [
   {
     "id": 1,
-    "phone": "Samsung Galaxy Note 20 4G 8GB/256GB",
+    "phone": "Galaxy Note 20",
+    "desc": "Samsung Galaxy Note 20 Rose 256GB",
     "network": "GSM / CDMA / HSPA / EVDO / LTE",
     "dimensions": "150.9 x 75.7 x 8.3 mm (5.94 x 2.98 x 0.33 in)",
     "weight": "194 g (6.84 oz)",
@@ -14,7 +15,8 @@
   },
   {
     "id": 2,
-    "phone": "Xiaomi Redmi 9C 3GB/64GB",
+    "phone": "Xiaomi Redmi 9C",
+    "desc": "Xiaomi Redmi 9C Black 3GB/64GB",
     "network": "GSM / HSPA / LTE",
     "dimensions": "138.4 x 67.3 x 7.3 mm (5.45 x 2.65 x 0.29 in)",
     "weight": "148 g (5.22 oz)",
@@ -27,7 +29,8 @@
   },
   {
     "id": 3,
-    "phone": "Realme 7 Pro 8GB/128GB",
+    "phone": "Realme 7 Pro",
+    "desc": "Realme 7 Pro Blue 8GB/128GB",
     "network": "GSM / CDMA / HSPA / EVDO / LTE",
     "dimensions": "-",
     "weight": "-",
@@ -40,7 +43,8 @@
   },
   {
     "id": 4,
-    "phone": "LG K61 4GB/128GB",
+    "phone": "LG K61",
+    "desc": "LG K61 Gray 4GB/128GB",
     "network": "GSM / HSPA / LTE",
     "dimensions": "-",
     "weight": "-",
@@ -53,7 +57,8 @@
   },
   {
     "id": 5,
-    "phone": "Apple iPhone 12 64GB",
+    "phone": "Apple iPhone 12",
+    "desc": "Apple iPhone 12 White 64GB",
     "network": "GSM / HSPA / LTE",
     "dimensions": "-",
     "weight": "-",
@@ -66,7 +71,8 @@
   },
   {
     "id": 6,
-    "phone": "Samsung Galaxy Note 9",
+    "phone": "Galaxy Note 9",
+    "desc": "Samsung Galaxy Note 9 Black 64GB",
     "network": "GSM / HSPA / LTE",
     "dimensions": "-",
     "weight": "-",
@@ -79,7 +85,8 @@
   },
   {
     "id": 7,
-    "phone": "Apple iPhone X 64GB",
+    "phone": "Apple iPhone X",
+    "desc": "Apple iPhone X Silver 64GB",
     "network": "GSM / HSPA / LTE",
     "dimensions": "-",
     "weight": "-",
@@ -92,7 +99,8 @@
   },
   {
     "id": 8,
-    "phone": "Huawei P40 5G 8GB/128GB",
+    "phone": "Huawei P40 5G",
+    "desc": "Huawei P40 5G Black 8GB/128GB",
     "network": "GSM / HSPA / LTE",
     "dimensions": "-",
     "weight": "-",
@@ -102,5 +110,19 @@
     "colors": "Midnight Black",
     "price": "760,24€",
     "img": "https://www.maxmovil.com/media/catalog/product/cache/1/small_image/200x200/9df78eab33525d08d6e5fb8d27136e95/h/u/huawei_p40-5_1_.jpg"
+  },
+  {
+    "id": 9,
+    "phone": "Nokia 8.3",
+    "desc": "Nokia 8.3 Blue Sea 5G 6GB/64GB",
+    "network": "GSM / HSPA / LTE",
+    "dimensions": "-",
+    "weight": "-",
+    "type": "Super AMOLED capacitive touchscreen, 16M colors",
+    "size": "6.4 inches, 104.0 cm2",
+    "resolution": "1440 x 2960 pixels, 18.5:9 ratio (~514 ppi density)",
+    "colors": "Blue Sea",
+    "price": "466,66€",
+    "img": "https://www.maxmovil.com/media/catalog/product/cache/1/small_image/200x200/9df78eab33525d08d6e5fb8d27136e95/n/o/nokia-8.3-blue_0003_41_ns7nrznl._ac__1.jpg"
   }
 ]
