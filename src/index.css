@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.MuiButton-iconSizeMedium > *:first-child {
+  font-size: 35px !important;
+}
+
+.MuiCircularProgress-root {
+  height: 100px !important;
+  width: 100px !important;
+}
+
+.MuiTypography-gutterBottom {
+  display: flex !important;
+  align-items: center !important;
+}
