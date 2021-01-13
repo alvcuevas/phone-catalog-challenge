@@ -1,42 +1,10 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import {
-  makeStyles,
-  Card,
-  IconButton,
-  CardActionArea,
-  CardActions,
-  CardContent,
-  CardMedia,
-  Button,
-  Typography,
-} from "@material-ui/core";
+import { Card, IconButton, CardActionArea, CardActions, CardContent, CardMedia, Button, Typography } from "@material-ui/core";
 import SearchIcon from "@material-ui/icons/Search";
 import StarRateIcon from "@material-ui/icons/StarRate";
 import ShareIcon from "@material-ui/icons/Share";
-
-const useStyles = makeStyles((theme) => ({
-  root: {
-    width: 310,
-    marginBottom: 40,
-  },
-  media: {
-    height: 280,
-  },
-  button: {
-    margin: theme.spacing(1),
-  },
-  content: {
-    display: "flex",
-    justifyContent: "center",
-    flexDirection: "column",
-    alignItems: "center",
-  },
-  actions: {
-    display: "flex",
-    justifyContent: "space-around",
-  },
-}));
+import { useStyles } from './styles.js'; 
 
 export default function PhoneCardComponent({ phone }) {
   const history = useHistory();

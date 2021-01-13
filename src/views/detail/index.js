@@ -2,61 +2,10 @@ import React, { useEffect } from "react";
 import { useParams, useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchPhoneDetails } from "../../store/actions/catalogActions";
-
-import {
-  makeStyles,
-  Button,
-  Typography,
-  useMediaQuery
-} from "@material-ui/core";
+import { Button, Typography, useMediaQuery } from "@material-ui/core";
 import ArrowBackIcon from "@material-ui/icons/ArrowBack";
 import PhoneAndroidIcon from "@material-ui/icons/PhoneAndroid"; 
-
-const useStyles = makeStyles((theme) => ({
-  container: {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-  },
-  detailsContent: {
-    display: "flex",
-    justifyContent: "center",
-    marginTop: 40,
-    marginBottom: 25,
-    borderTop: "1px solid lightgray",
-    borderBottom: "1px solid lightgray",
-  },
-  reducedDetailsContent: {
-    display: "flex",
-    flexDirection: 'column',
-    justifyContent: "center",
-    marginTop: 40,
-    marginBottom: 25
-  },
-  imgSection: {
-    borderRight: "1px solid lightgray",
-    padding: 20,
-    display: "flex",
-    alignItems: "center",
-  },
-  detailsSection: {
-    padding: 20,
-  },
-  brand: {
-    display: "flex",
-    justifyContent: "center",
-    color: "#ff5722",
-    letterSpacing: 1.5,
-    marginBottom: 15,
-  },
-  phoneIcon: {
-    marginRight: 15,
-  },
-  feature: {
-    marginBottom: 5,
-    paddingLeft: 10,
-  },
-}));
+import { useStyles } from './styles';
 
 const DetailView = () => {
   const dispatch = useDispatch();
