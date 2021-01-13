@@ -16,7 +16,9 @@
 
 ### Run tests
 
--
+1. Execute all client tests:
+
+    `cd client && npm run test`
 ### Dockerize application
 
 1. Build image
