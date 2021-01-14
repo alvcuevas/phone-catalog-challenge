@@ -2,15 +2,19 @@
 
 ### Run application
 
-1. Install client dependencies: 
+1. Clone repository: 
+    
+    `git clone https://github.com/alvcuevas/phone-catalog-challenge.git`
+
+2. Install client dependencies: 
     
     `cd client && npm install`
 
-2. Install server dependencies: 
+3. Install server dependencies: 
 
     `cd server && npm install`
 
-3. Run app on browser: 
+4. Run app on browser: 
 
     `cd client && npm start`
 
